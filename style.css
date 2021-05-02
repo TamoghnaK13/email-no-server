@@ -1,8 +1,13 @@
+
 body {
-  margin: 2em;
   float: center;
+  border-radius: 8px;
+  text-align: center;
+  
 
 }
+
+
 aside {
     background: #1f8dd6; /* same color as selected state on site menu */
     padding: 0.3em 1em;
@@ -10,11 +15,16 @@ aside {
     color: #fff;
     margin-bottom: 2em;
    float: center;
+  text-align: center;
+  
 }
-textarea {
-  width: 100%;
-  float: center;
 
+
+input {
+  float: center;
+  border-radius: 8px;
+  text-align: center;
+  
 }
 .content-head {
   font-weight: 400;
@@ -22,12 +32,18 @@ textarea {
   letter-spacing: 0.1em;
   margin: 2em 0 1em;
   float: center;
+  border-radius: 8px;
+  text-align: center;
+  
 
 }
 .is-center {
   text-align: center;
   float: center;
-  vertical-align: center;
+  vertical-
+  border-radius: 8px;
+  text-align: center;
+  
 
 }
 .button-success {
@@ -37,20 +53,21 @@ textarea {
   background: rgb(28, 184, 65); /* this is a green */
   float: center;
 
+  
+
 }
+
 .button-xlarge {
   font-size: 125%;
   float: center;
+  border-radius: 8px;
+  text-align: center;
+  
 
 }
 button {
   float: center;
-}
-#name, #email {
-  width: 50%;
-  float: center;
-
-}
-.honeypot-field {
-  display: none;
+  border-radius: 8px;
+  text-align: center;
+  
 }
