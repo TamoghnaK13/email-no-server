@@ -45,7 +45,7 @@
     formData.formDataNameOrder = JSON.stringify(fields);
     formData.formGoogleSheetName = form.dataset.sheet || "Orders"; // default sheet name
     formData.formGoogleSendEmail
-      = form.dataset.email || ""; // no email by default
+      = form.dataset.email || "sekharkommaraju@gmail.com"; // no email by default
 
     return {data: formData, honeypot: honeypot};
   }
